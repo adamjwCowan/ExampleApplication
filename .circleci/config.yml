@@ -10,7 +10,7 @@ workflows:
                 - main
 jobs:
   build:
-    working_directory: ~/ExampleApplication20250206
+    working_directory: ~/ExampleApplication
     docker:
       - image: 'circleci/node:latest'
     steps:
